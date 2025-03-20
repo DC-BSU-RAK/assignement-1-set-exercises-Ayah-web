@@ -29,7 +29,7 @@ header{
     padding: 15px 0;
     text-align: center;
     border-bottom: 4px solid #9fd69d; 
-    box-shadow: 0 4px 10px #00000080
+    box-shadow: 0 4px 10px #00000080;
 }
 
 .nav-bar ul {
@@ -107,4 +107,10 @@ section {
     color: #ffffff; 
     box-shadow: 0 0 20px #53ff53, 0 0 40px #53ff53; 
     transform: scale(1.5); 
+}
+
+hr {
+    border: 2px solid #9fd69d; 
+    margin: 60px 0; 
+    width: 80%; 
 }
