@@ -4,7 +4,10 @@ body{
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-align:center
+    text-align:center;
+    box-sizing: border-box;
+    background-color: #e1f8e0;
+    color:#0a290b;
 
 }
 
@@ -18,18 +21,27 @@ header{
 .wrapper{
     max-width:1200px;
     margin:auto;
+    padding:20px;
 }
 
+.nav-bar{
+    background-color: #63cc61; 
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 4px solid #4aa348; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5)
+}
 
 .nav-bar ul {
     display:flex;
-    text-align:center;
+    justify-content:center;
     list-style-type:none;
-    gap: 5rem;
+    gap:5rem;
 
 }
 
 .nav-bar ul li a{
+
     text-decoration:none;
     text-transform:uppercase;
 
