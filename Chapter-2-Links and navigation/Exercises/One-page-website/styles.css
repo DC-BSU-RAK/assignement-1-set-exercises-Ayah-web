@@ -72,4 +72,16 @@ ul{
 
 h1,h2,h3{
     letter-spacing:0.2rem;
+    color:#0a290b;
+}
+
+section {
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 40px;
+    text-align:center;
+    scroll-margin-top:60px;
 }
