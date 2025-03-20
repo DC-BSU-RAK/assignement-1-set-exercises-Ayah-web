@@ -56,6 +56,13 @@ header{
 
 }
 
+.nav-bar ul li a:hover {
+    background-color: #9fd69d; 
+    color: #ffffff; 
+    box-shadow: 0 0 20px #53ff53, 0 0 40px #53ff53; 
+    transform: scale(1.5); 
+}
+
 ul{
     display: inline-block;
     text-align: left; 
