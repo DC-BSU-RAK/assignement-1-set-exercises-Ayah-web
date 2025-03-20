@@ -33,3 +33,10 @@ header{
     text-transform:uppercase;
 
 }
+
+ul{
+    display: inline-block;
+    text-align: left; 
+    list-style-position: inside; 
+    padding-left: 0; 
+}
