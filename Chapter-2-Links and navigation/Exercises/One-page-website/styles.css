@@ -101,3 +101,10 @@ section {
     transition: all 0.3s ease;
     box-shadow: 0 0 10px #00ff004d;
 }
+
+.button a:hover {
+    background-color: #9fd69d; 
+    color: #ffffff; 
+    box-shadow: 0 0 20px #53ff53, 0 0 40px #53ff53; 
+    transform: scale(1.5); 
+}
