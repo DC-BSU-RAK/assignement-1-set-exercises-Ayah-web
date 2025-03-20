@@ -85,3 +85,7 @@ section {
     text-align:center;
     scroll-margin-top:60px;
 }
+
+.button {
+    margin-top: 40px; 
+}
