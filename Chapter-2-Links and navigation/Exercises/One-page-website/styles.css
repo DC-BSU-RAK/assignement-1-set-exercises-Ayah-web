@@ -13,23 +13,23 @@ body{
 
 header{
     position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000;
+    background-color:#c5efc3;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.wrapper{
-    max-width:1200px;
-    margin:auto;
-    padding:20px;
+    border-bottom: 4px solid #9fd69d; 
+    box-shadow: 0 4px 10px #00000080;
 }
 
 .nav-bar{
+    margin:auto;
+    max-width: 1200;
     background-color: #c5efc3; 
     padding: 15px 0;
     text-align: center;
-    border-bottom: 4px solid #9fd69d; 
-    box-shadow: 0 4px 10px #00000080;
 }
 
 .nav-bar ul {
@@ -111,6 +111,7 @@ section {
 
 hr {
     border: 2px solid #9fd69d; 
-    margin: 60px 0; 
+    margin: 80px auto; 
     width: 80%; 
+    max-width: 800px;
 }
