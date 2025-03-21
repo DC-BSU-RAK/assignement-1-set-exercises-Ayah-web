@@ -51,3 +51,31 @@ body {
     margin-top: 50px; 
     margin-bottom: 20px; 
 }
+
+.category-box {
+    padding: 20px;
+    background: #8fb4d499; 
+    border-radius: 10px;
+    margin: 20px auto; 
+    width: 80%;
+    max-width: 800px; 
+    color: #0616249f; 
+    font-size: 1.05rem;
+    letter-spacing: 0.05rem;
+}
+
+.category-box h3 {
+    color: #1aeafd; 
+    text-shadow: 2px 2px 4px #0011209f; 
+    margin-bottom: 10px; 
+    letter-spacing:0.05rem;
+}
+
+.category-box ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.category-box ul li {
+    margin-bottom: 10px;
+}
