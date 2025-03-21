@@ -14,7 +14,7 @@ body {
 }
 
 .nav-bar {
-    background-color: #5700a3ac; 
+    background-color: #120021b5; 
     padding: 20px 0; 
 }
 
@@ -41,5 +41,14 @@ body {
 .nav-bar ul li a:hover {
     color: #9e28ff; 
     text-shadow: 0 0 10px #9e28ff, 0 0 20px #9e28ff;
+}
+
+#heading {
+    font-size: 100px;
+    color: #9e28ff; 
+    text-shadow: 4px 4px 8px #002507b3; 
+    text-align: center; 
+    margin-top: 50px; 
+    margin-bottom: 20px; 
 }
 
