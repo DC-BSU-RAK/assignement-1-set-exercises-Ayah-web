@@ -18,6 +18,14 @@ body {
     padding: 20px 0; 
 }
 
+.nav-bar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
 .welcome{
     padding: 20px;
     background: rgba(203, 171, 230, 0.8);
