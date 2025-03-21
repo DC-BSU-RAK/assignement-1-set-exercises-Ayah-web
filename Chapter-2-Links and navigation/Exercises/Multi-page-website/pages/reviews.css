@@ -1,0 +1,14 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Jersey 10", sans-serif;
+}
+
+body {
+    background-image: url('https://images.steamusercontent.com/ugc/1797477425519878747/48E9945176AAE37276FA45E6658820D6CAA6C703/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
