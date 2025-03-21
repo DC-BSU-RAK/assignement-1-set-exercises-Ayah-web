@@ -83,3 +83,8 @@ body {
     border-radius: 5px; 
     transition: all 0.3s ease; 
 }
+
+.button:hover {
+    background-color: #ff4500; 
+    box-shadow: 0 0 15px #ff4500, 0 0 20px #ff4500; 
+}
