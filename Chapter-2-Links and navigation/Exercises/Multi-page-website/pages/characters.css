@@ -42,3 +42,12 @@ body {
     color: #1aeafd; 
     text-shadow: 0 0 10px #1aeafd, 0 0 20px #1aeafd;
 }
+
+#heading {
+    font-size: 100px;
+    color: #1aeafd; 
+    text-shadow: 4px 4px 8px #0616249f; 
+    text-align: center; 
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+}
