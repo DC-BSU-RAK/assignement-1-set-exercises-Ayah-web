@@ -12,3 +12,33 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.nav-bar {
+    background-color: #181818b5; 
+    padding: 20px 0; 
+}
+
+.nav-bar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+.nav-bar ul li {
+    margin: 0 15px;
+}
+
+.nav-bar ul li a {
+    color: #f1f1f1; 
+    text-decoration: none; 
+    font-size: 20px; 
+    padding: 10px 15px; 
+    transition: all 0.3s ease; 
+}
+
+.nav-bar ul li a:hover {
+    color: #ff3e28; 
+    text-shadow: 0 0 10px #ff3e28, 0 0 20px #ff3e28;
+}
