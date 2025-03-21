@@ -38,6 +38,11 @@ body {
     transition: all 0.3s ease; 
 }
 
+.nav-bar ul li a:hover {
+    color: #ffd428; 
+    text-shadow: 0 0 10px #ffd428, 0 0 20px #ffd428;
+}
+
 .welcome{
     padding: 20px;
     background: rgba(203, 171, 230, 0.8);
