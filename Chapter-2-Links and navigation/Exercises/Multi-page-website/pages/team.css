@@ -1,0 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Jersey 10", sans-serif;
+}
+
+body {
+    background-image: url('https://64.media.tumblr.com/82d8ec49dddb24078c548bf28813fcb4/tumblr_ojhce19iZo1w2hnc9o1_540.pnj');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
