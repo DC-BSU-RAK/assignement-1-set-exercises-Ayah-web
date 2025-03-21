@@ -42,3 +42,28 @@ body {
     color: #5eff28; 
     text-shadow: 0 0 10px #5eff28, 0 0 20px #5eff28;
 }
+
+#heading {
+    font-size: 100px;
+    color: #5eff28; 
+    text-shadow: 4px 4px 8px #002507b3; 
+    text-align: center; 
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+}
+
+main{
+    padding: 20px;
+    background: #8fd49999;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:80%;
+    max-width:600px;
+    letter-spacing:0.05rem;
+    color: #000b02e7;
+    font-size: 1.05rem;
+}
