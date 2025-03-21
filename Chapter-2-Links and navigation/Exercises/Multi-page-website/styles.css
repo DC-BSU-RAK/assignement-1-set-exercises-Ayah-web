@@ -14,7 +14,7 @@ body {
 }
 
 .nav-bar {
-    background-color: rgba(0, 0, 0, 0.651); 
+    background-color: #000000a6; 
     padding: 20px 0; 
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .nav-bar ul li a {
-    color: rgb(241, 241, 241); 
+    color: #f1f1f1; 
     text-decoration: none; 
     font-size: 20px; 
     padding: 10px 15px; 
@@ -43,13 +43,24 @@ body {
     text-shadow: 0 0 10px #ffd428, 0 0 20px #ffd428;
 }
 
+#heading {
+    font-size: 150px;
+    color: #ffcc00; 
+    text-shadow: 4px 4px 8px #000000b3; 
+    text-align: center; 
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+}
+
 .welcome{
     padding: 20px;
-    background: rgba(203, 171, 230, 0.8);
+    background: #cbabe699;
     border-radius: 10px;
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width:80%;
+    max-width:600px;
 }
