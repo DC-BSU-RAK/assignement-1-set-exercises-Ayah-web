@@ -73,3 +73,13 @@ body {
     max-width:600px;
     letter-spacing:0.05rem;
 }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8030b2; 
+    color: #f1f1f1; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: all 0.3s ease; 
+}
