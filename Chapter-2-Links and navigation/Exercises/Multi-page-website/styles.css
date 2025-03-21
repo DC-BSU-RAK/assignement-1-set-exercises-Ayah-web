@@ -1,0 +1,13 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body {
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczNja2RvMnNiNHVqYm9lemc2c3pxcHJ1OXA1eWE5OGFwa3VmOHYwcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mC7Q3G0j9l8xD4biTl/giphy.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
