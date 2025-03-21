@@ -14,7 +14,7 @@ body {
 }
 
 .nav-bar {
-    background-color: rgba(22, 14, 24, 0.7); 
+    background-color: rgba(0, 0, 0, 0.651); 
     padding: 20px 0; 
 }
 
@@ -24,6 +24,10 @@ body {
     padding: 0;
     display: flex; 
     justify-content: center; 
+}
+
+.nav-bar ul li {
+    margin: 0 15px;
 }
 
 .welcome{
