@@ -30,6 +30,14 @@ body {
     margin: 0 15px;
 }
 
+.nav-bar ul li a {
+    color: rgb(241, 241, 241); 
+    text-decoration: none; 
+    font-size: 20px; 
+    padding: 10px 15px; 
+    transition: all 0.3s ease; 
+}
+
 .welcome{
     padding: 20px;
     background: rgba(203, 171, 230, 0.8);
