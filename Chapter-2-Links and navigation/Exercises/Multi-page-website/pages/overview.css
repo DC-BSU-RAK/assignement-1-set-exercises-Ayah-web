@@ -4,3 +4,11 @@ body, html {
     height: 100vh;
     font-family: "Jersey 10", sans-serif;
 }
+
+body {
+    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTR3dDExOHRvd2FvODQ1Z3d1eHdiOHllejZ4OWRqN3U5ZGdqcGF2NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TgDVddf7BR2cMwJ3Jb/giphy.gif');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
