@@ -1,3 +1,4 @@
+/* reset margin and padding for body, font established */
 body, html {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@ body, html {
     font-family: "Jersey 10", sans-serif;
 }
 
+/* bg img set to gif */
 body {
     background-image: url('https://i.redd.it/jpa0s2lsfpl51.gif');
     background-size: cover;
@@ -13,11 +15,13 @@ body {
     background-attachment: fixed;
 }
 
+/* styling for navbar */
 .nav-bar {
     background-color: #0616249f; 
     padding: 20px 0; 
 }
 
+/* styling for unordered list */
 .nav-bar ul {
     list-style-type: none; 
     margin: 0;
@@ -26,10 +30,12 @@ body {
     justify-content: center; 
 }
 
+/* spacing between navbar elements */
 .nav-bar ul li {
     margin: 0 15px;
 }
 
+/* anchor element styling */
 .nav-bar ul li a {
     color: #f1f1f1; 
     text-decoration: none; 
@@ -38,11 +44,13 @@ body {
     transition: all 0.3s ease; 
 }
 
+/* when hovered over, navbar element glows blue */
 .nav-bar ul li a:hover {
     color: #1aeafd; 
     text-shadow: 0 0 10px #1aeafd, 0 0 20px #1aeafd;
 }
 
+/* styling for heading */
 #heading {
     font-size: 100px;
     color: #1aeafd; 
@@ -52,6 +60,7 @@ body {
     margin-bottom: 20px; 
 }
 
+/* styling for each category box, has a transparent box for it */
 .category-box {
     padding: 20px;
     background: #8fb4d499; 
@@ -63,6 +72,7 @@ body {
     letter-spacing: 0.05rem;
 }
 
+/* styling for headings in categorybox class */
 .category-box h3 {
     color: #fdee1a; 
     text-shadow: 2px 2px 4px #201c009f; 
@@ -70,11 +80,13 @@ body {
     letter-spacing:0.05rem;
 }
 
+/* removal of bullet points */
 .category-box ul {
     list-style-type: none; 
     padding: 0;
 }
 
+/* styling for list */
 .category-box ul li {
     margin-bottom: 10px;
     color: #000e1af4; 
