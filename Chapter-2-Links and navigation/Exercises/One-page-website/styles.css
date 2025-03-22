@@ -1,3 +1,4 @@
+/* styling for body */
 body{
     margin:0;
     padding:0;
@@ -11,6 +12,7 @@ body{
 
 }
 
+/* styling for header */
 header{
     position:fixed;
     top:0;
@@ -24,6 +26,7 @@ header{
     box-shadow: 0 4px 10px #00000080;
 }
 
+/* styling for navbar */
 .nav-bar{
     margin:auto;
     max-width: 1200;
@@ -32,6 +35,7 @@ header{
     text-align: center;
 }
 
+/* navbar list styling */
 .nav-bar ul {
     margin:0;
     padding:0;
@@ -42,6 +46,7 @@ header{
 
 }
 
+/* navbar anchor element styling */
 .nav-bar ul li a{
 
     text-decoration:none;
@@ -56,6 +61,7 @@ header{
 
 }
 
+/* when hovered, navbar elements glow green */
 .nav-bar ul li a:hover {
     background-color: #9fd69d; 
     color: #ffffff; 
@@ -63,10 +69,12 @@ header{
     transform: scale(1.5); 
 }
 
+/* inc font size in wrapper */
 .wrapper {
     font-size:large
 }
 
+/* styling for list */
 ul{
     display: inline-block;
     text-align: left; 
@@ -74,11 +82,13 @@ ul{
     padding-left: 0; 
 }
 
+/* styling for headers */
 h1,h2,h3{
     letter-spacing:0.2rem;
     color:#0a290b;
 }
 
+/* styling for section */
 section {
     min-height:100vh;
     display:flex;
@@ -90,10 +100,12 @@ section {
     scroll-margin-top:80px;
 }
 
+/* styling for button */
 .button {
     margin-top: 40px; 
 }
 
+/* styling for anchor in button */
 .button a {
     background-color: #c5efc3; 
     color: #0a290b; 
@@ -106,6 +118,7 @@ section {
     box-shadow: 0 0 10px #00ff004d;
 }
 
+/* when hovered, button color changes */
 .button a:hover {
     background-color: #9fd69d; 
     color: #ffffff; 
@@ -113,6 +126,7 @@ section {
     transform: scale(1.5); 
 }
 
+/* styling for horizontal line */
 hr {
     border: 2px solid #9fd69d; 
     margin: 80px auto; 
