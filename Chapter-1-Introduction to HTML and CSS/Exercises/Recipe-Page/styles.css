@@ -1,7 +1,9 @@
+/* styling for body */
 body {
     text-align:center;
 }
 
+/* styling for lists */
 ul,ol {
     display: inline-block;
     text-align: left; 
