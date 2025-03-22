@@ -51,6 +51,11 @@ h2 {
     margin: 15px 0;
     border-radius: 5px;
     box-shadow: 0 0 10px #ff45c4;
+    transition: all 0.2s ease;
+}
+
+.content:hover{
+    transform: scale(1.05);
 }
 
 /* h3 styling color pink with no margin at top */
@@ -63,4 +68,18 @@ h2 {
 .content p {
     color: #ff45c4;
 }
+
+/* pre styling */
+pre {
+    background-color: #ffd8f3;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+/* code color */
+code {
+    color: #ff45c4;
+}
+
 
