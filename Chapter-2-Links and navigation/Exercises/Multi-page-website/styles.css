@@ -1,3 +1,4 @@
+/* reset the margin and padding, font established */
 body, html {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@ body, html {
     font-family: "Jersey 10", sans-serif;
 }
 
+/* background image is a gif and covers body */
 body {
     background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczNja2RvMnNiNHVqYm9lemc2c3pxcHJ1OXA1eWE5OGFwa3VmOHYwcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mC7Q3G0j9l8xD4biTl/giphy.gif');
     background-size: cover;
@@ -13,11 +15,13 @@ body {
     background-attachment: fixed;
 }
 
+/* transparent black background color of navbar with padding to take more space */
 .nav-bar {
     background-color: #000000a6; 
     padding: 20px 0; 
 }
 
+/* bullet points removed from navbar elements, center aligned */
 .nav-bar ul {
     list-style-type: none; 
     margin: 0;
@@ -26,10 +30,12 @@ body {
     justify-content: center; 
 }
 
+/* spacing between list elements */
 .nav-bar ul li {
     margin: 0 15px;
 }
 
+/* styling of anchor tags in list */
 .nav-bar ul li a {
     color: #f1f1f1; 
     text-decoration: none; 
@@ -38,11 +44,13 @@ body {
     transition: all 0.3s ease; 
 }
 
+/* when hovered over, navbar elements glow yewllow */
 .nav-bar ul li a:hover {
     color: #ffd428; 
     text-shadow: 0 0 10px #ffd428, 0 0 20px #ffd428;
 }
 
+/* styling for heading */
 #heading {
     font-size: 100px;
     color: #ffcc00; 
@@ -52,6 +60,7 @@ body {
     margin-bottom: 20px; 
 }
 
+/* styling for description */
 #description {
     font-size: 25px; 
     color: #f1f1f1; 
@@ -60,6 +69,7 @@ body {
     margin-top:0;
 }
 
+/* transparent box around welcome class to be visible */
 .welcome{
     padding: 20px;
     background: #cbabe699;
@@ -74,6 +84,7 @@ body {
     letter-spacing:0.05rem;
 }
 
+/* styling for button */
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -84,6 +95,7 @@ body {
     transition: all 0.3s ease; 
 }
 
+/* when hovered over, button styling changes to glow red */
 .button:hover {
     background-color: #ff4500; 
     box-shadow: 0 0 15px #ff4500, 0 0 20px #ff4500; 
