@@ -8,4 +8,23 @@ body {
     line-height: 1.6;
 }
 
+/* styling for header, center aligned, padding added, border added at bottom */
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ff45c4;
+}
+
+/* H1 tag in header larger font size, margin reset, shadow added */
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    text-shadow: 0 0 5px #ff45c4;
+}
+
+/* p tag in header font size larger, color pink */
+header p {
+    font-size: 1.2rem;
+    color: #ff45c4;
+}
 
