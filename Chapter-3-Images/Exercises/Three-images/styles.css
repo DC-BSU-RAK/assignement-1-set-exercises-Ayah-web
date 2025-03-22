@@ -25,3 +25,12 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+
+.img-wrapper img {
+    filter: grayscale(100%);
+}
+
+.img-wrapper img:hover {
+    filter: grayscale(0%);
+}
+
