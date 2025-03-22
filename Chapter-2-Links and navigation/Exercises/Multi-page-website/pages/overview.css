@@ -1,3 +1,4 @@
+/* reset margin and padding for body, font established */
 body, html {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@ body, html {
     font-family: "Jersey 10", sans-serif;
 }
 
+/* background img is set as gif */
 body {
     background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTR3dDExOHRvd2FvODQ1Z3d1eHdiOHllejZ4OWRqN3U5ZGdqcGF2NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TgDVddf7BR2cMwJ3Jb/giphy.gif');
     background-size: cover;
@@ -13,11 +15,13 @@ body {
     background-attachment: fixed;
 }
 
+/* styling for navbar */
 .nav-bar {
     background-color: #1c0600a6; 
     padding: 20px 0; 
 }
 
+/* styling for unordered list */
 .nav-bar ul {
     list-style-type: none; 
     margin: 0;
@@ -26,10 +30,12 @@ body {
     justify-content: center; 
 }
 
+/* spacing between list elements */
 .nav-bar ul li {
     margin: 0 15px;
 }
 
+/* styling for anchor elements */
 .nav-bar ul li a {
     color: #f1f1f1; 
     text-decoration: none; 
@@ -38,11 +44,13 @@ body {
     transition: all 0.3s ease; 
 }
 
+/* when hovered, elements in navbar glow green */
 .nav-bar ul li a:hover {
     color: #5eff28; 
     text-shadow: 0 0 10px #5eff28, 0 0 20px #5eff28;
 }
 
+/* styling for heading of webpage */
 #heading {
     font-size: 100px;
     color: #5eff28; 
@@ -52,6 +60,7 @@ body {
     margin-bottom: 20px; 
 }
 
+/* transparent box for main text */
 main{
     padding: 20px;
     background: #8fd49999;
