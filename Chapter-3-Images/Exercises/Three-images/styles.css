@@ -18,13 +18,19 @@ body {
     margin-top: 10px;
 }
 
+.heading, .description {
+    display: inline-block;
+    padding: 10px 20px; 
+    margin: 10px auto; 
+}
+
 .description {
     font-family: "Jim Nightshade", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
     letter-spacing: 0.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .license {
