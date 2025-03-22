@@ -9,3 +9,15 @@
     border-color:#35ff1e;
     box-shadow: inset 10px 10px 8px black;
 }
+
+/* styling for div c*/
+#c {
+    border-color:orange;
+    border-radius: 15px;
+}
+
+/* styling for div d */
+#d {
+    border-color:#a90000;
+    text-shadow: 2px 5px 2px black;
+}
