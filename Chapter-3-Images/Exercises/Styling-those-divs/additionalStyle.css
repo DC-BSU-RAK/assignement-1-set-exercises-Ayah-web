@@ -1,0 +1,11 @@
+/* styling for div a */
+#a {
+    border-color:blueviolet;
+    box-shadow: 15px 15px 15px red
+}
+
+/* styling for div b */
+#b {
+    border-color:#35ff1e;
+    box-shadow: inset 10px 10px 8px black;
+}
