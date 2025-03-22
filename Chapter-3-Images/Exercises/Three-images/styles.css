@@ -33,5 +33,6 @@ body{
 
 .img-wrapper img:hover {
     filter: grayscale(0%);
+    transform: scale(1.05);
 }
 
