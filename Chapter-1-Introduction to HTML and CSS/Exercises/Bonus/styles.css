@@ -1,0 +1,11 @@
+/* styling for body, white bg, pink text color, font established, padding added */
+body {
+    background-color: #ffe6f6;
+    color: #ff45c4;
+    font-family: "Courier New", monospace;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+
