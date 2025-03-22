@@ -1,6 +1,6 @@
-/* styling for body, white bg, pink text color, font established, padding added */
+/* styling for body, white pink bg, pink text color, font established, padding added */
 body {
-    background-color: #ffe6f6;
+    background-color: #f8d3eb;
     color: #ff45c4;
     font-family: "Courier New", monospace;
     margin: 0;
@@ -41,5 +41,26 @@ h2 {
     text-shadow: 0 0 5px #ff45c4;
     border-bottom: 1px solid #ff45c4;
     padding-bottom: 10px;
+}
+
+/* styling for content class, bg color, text color, padding and margin hz,box shadow added */
+.content {
+    background-color: #ffe6f6;
+    border: 1px solid #ff45c4;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ff45c4;
+}
+
+/* h3 styling color pink with no margin at top */
+.content h3 {
+    color: #ff45c4;
+    margin-top: 0;
+}
+
+/* p styling color pink */
+.content p {
+    color: #ff45c4;
 }
 
