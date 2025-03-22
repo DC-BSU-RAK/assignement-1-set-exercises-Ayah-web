@@ -63,6 +63,10 @@ header{
     transform: scale(1.5); 
 }
 
+.wrapper {
+    font-size:large
+}
+
 ul{
     display: inline-block;
     text-align: left; 
