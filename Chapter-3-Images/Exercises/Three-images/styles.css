@@ -37,6 +37,7 @@ body {
     font-family: "Jim Nightshade", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: 1.5rem;
 }
 
 .license a {
@@ -60,7 +61,19 @@ body {
     max-width: 90%; 
 }
 
+.img-wrapper {
+    flex: 0 0 auto; 
+    text-align: center; 
+}
+
 .img-wrapper img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 20px;
     filter: grayscale(100%);
     transition: all 0.3s ease; 
 }
