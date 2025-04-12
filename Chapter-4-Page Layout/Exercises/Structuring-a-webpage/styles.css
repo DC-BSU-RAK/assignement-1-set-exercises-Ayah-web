@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -38,8 +41,17 @@ header h1 {
     font-size: 1.6em;
 }
 
+.content-wrapper {
+    display: flex;
+    flex: 1;
+    align-items: flex-start; 
+    gap: 20px;
+}
+
 main {
-    padding: 5px 0 0 30px; 
+    padding: 5px 0 5px 30px;
+    width: 70%;
+    box-sizing: border-box;
 }
 
 main h2 {
@@ -50,15 +62,69 @@ main h2 {
 }
 
 main p {
-    margin:0;
+    margin:0 0 15px 0;
     font-family: "Arial", sans-serif;
     font-weight: 400;
+    font-size:1.1em;
 }
 
 main img {
-    max-width: 70%; 
-    width: 50%; 
-    height: 50%;
-    display: block;
+    width:90%;
+}
+
+.right-clmn {
+    color:#FFFFFF;
+    background-color: #172d67;
+    padding: 20px;
+    width: 30%;
     margin-top: 20px;
+    top: 0; 
+    align-self: flex-start; 
+}
+
+.right-clmn h2 {
+    font-family: "Tahoma", sans-serif;
+    font-size: 1.8em;
+    border-bottom: 3px solid #FFFFFF;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.right-clmn p {
+    font-family: "Arial", sans-serif;
+    line-height: 1.8;
+    margin: 0 0 15px 0;
+}
+
+.right-clmn p br {
+    display: block; 
+    content: ""; 
+    margin-bottom: 10px; 
+}
+
+.right-clmn img {
+    width: 150px;
+    height: 160px; 
+    object-fit: cover; 
+    display: inline-block; 
+    margin: 10px 10px 10px 0; 
+}
+
+.image-row {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+
+footer {
+    background-color: #8c15e9;
+    font-family: "Arial", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5px;
 }
