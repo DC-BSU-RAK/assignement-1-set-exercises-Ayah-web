@@ -20,3 +20,10 @@ body {
     max-width: 400px;
     text-align: center;
 }
+
+/* styling for heading */
+h1 {
+    color: #23394f;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
