@@ -55,7 +55,7 @@ input[type="number"] {
 
 /* styling for focus state when inputing, border color changes and shadow is added */
 input[type="number"]:focus {
-    border-color: #fff27f;
+    border-color: #ffd95d;
     box-shadow: 0 0 0 3px #fff27f;
     outline: none;
 }
@@ -74,3 +74,13 @@ button {
     margin-top: 10px;
 }
 
+/* hover effect */
+button:hover {
+    background-color: #ffd95d; 
+    box-shadow: 0 0 10px #fff3cd; 
+}
+
+/* when clicked, button shrinks */
+button:active {
+    transform: scale(0.75); 
+}
