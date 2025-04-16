@@ -34,4 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
         totalCostDisplay.textContent = `Total cost: AED ${totalCost.toFixed(2)}`;
     }
 
+    // in the initial calculation, displays AED 0.00 default value
+    calculateTotalCost();
 });
