@@ -84,3 +84,14 @@ button:hover {
 button:active {
     transform: scale(0.9); 
 }
+
+/* styling for total cost, font styling, margin ontop, color and rounded corner */
+#total-cost {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #e1e1e1bf;
+    border-radius: 5px;
+    color: #23394f;
+}
