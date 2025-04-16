@@ -82,5 +82,5 @@ button:hover {
 
 /* when clicked, button shrinks */
 button:active {
-    transform: scale(0.75); 
+    transform: scale(0.9); 
 }
