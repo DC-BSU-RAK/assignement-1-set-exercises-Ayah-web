@@ -27,3 +27,17 @@ h1 {
     margin-bottom: 25px;
     font-size: 25px;
 }
+
+/* styling for input group, margin added at the bottom, left aligned text */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* styling for label in input group, displayed a sblock, bottom margin, font weight and color of text */
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #586a7b;
+}
