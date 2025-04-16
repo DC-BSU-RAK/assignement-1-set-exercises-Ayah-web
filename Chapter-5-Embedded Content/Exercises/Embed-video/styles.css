@@ -1,3 +1,4 @@
+/* body styling, reset margin and padding, min height assigned, center alignment, font styling, colors */
 body {
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@ body {
     text-align: center;
 }
 
+/* h1 styling, margin, color and center alignment */
 h1 {
     margin-bottom: 20px;
     color: #ff85b4;
@@ -17,11 +19,13 @@ h1 {
     width: 100%;
 }
 
+/* vid container styling for width  */
 .vid-container {
     max-width: 800px;
     width: 100%;
 }
 
+/* video styling, shadow and rounded corners */
 video {
     max-width: 100%;
     box-shadow: 0 10px 15px #5a0f2ba5;
