@@ -7,5 +7,16 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    color: #333;
+    color: #1e1e1e;
+}
+
+/* styling for calculator container, bg color, rounded corners, shaddow, padding and width, center alignment */
+.calculator-container {
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px #1313131a;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
 }
