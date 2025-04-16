@@ -41,3 +41,21 @@ h1 {
     font-weight: 600;
     color: #586a7b;
 }
+
+/* styling for input field, width padding, rounded border, font size, 0.2s transition*/
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+/* styling for focus state when inputing, border color changes and shadow is added */
+input[type="number"]:focus {
+    border-color: #fff27f;
+    box-shadow: 0 0 0 3px #fff27f;
+    outline: none;
+}
