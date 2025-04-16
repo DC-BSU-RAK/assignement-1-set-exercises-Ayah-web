@@ -1,3 +1,4 @@
+/* styling for body, resetting spacing of margin and padding, flexbox, height determined */
 body {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@ body {
     min-height: 100vh;
 }
 
+/* styling for header text color and background color, padding and center align */
 header {
     color: #FFFFFF;
     background-color: #17072b;
@@ -13,6 +15,7 @@ header {
     text-align: center;
 }
 
+/* styling for h1, font styling and underline */
 header h1 {
     font-family: "Tahoma", sans-serif;
     font-weight: 700;
@@ -22,6 +25,7 @@ header h1 {
     display: inline-block;
 }
 
+/* navbar styling */
 .nav-bar ul {
     display: flex;
     justify-content: center;
@@ -30,10 +34,12 @@ header h1 {
     margin: 5px 0 0;
 }
 
+/* spacing between list */
 .nav-bar li {
     margin: 0 17px;
 }
 
+/* anchor tag styling, color and font styling */
 .nav-bar a {
     color: #FFFFFF;
     text-decoration: none;
@@ -41,6 +47,7 @@ header h1 {
     font-size: 1.6em;
 }
 
+/* styling for content wrapper, positions using flex */
 .content-wrapper {
     display: flex;
     flex: 1;
@@ -48,12 +55,14 @@ header h1 {
     gap: 20px;
 }
 
+/* styling for main, padding and sizing */
 main {
     padding: 5px 0 5px 30px;
     width: 70%;
     box-sizing: border-box;
 }
 
+/* h2 styling font and underline */
 main h2 {
     font-family: "Tahoma", sans-serif;
     font-size: 1.8em;
@@ -61,6 +70,7 @@ main h2 {
     display: inline-block;
 }
 
+/* styling for p in main */
 main p {
     margin:0 0 15px 0;
     font-family: "Arial", sans-serif;
@@ -68,10 +78,12 @@ main p {
     font-size:1.1em;
 }
 
+/* img sizing */
 main img {
     width:90%;
 }
 
+/* styling for column, colors, padding, size, alignment */
 .right-clmn {
     color:#FFFFFF;
     background-color: #172d67;
@@ -82,6 +94,7 @@ main img {
     align-self: flex-start; 
 }
 
+/* h2 styling font and underline */
 .right-clmn h2 {
     font-family: "Tahoma", sans-serif;
     font-size: 1.8em;
@@ -90,18 +103,21 @@ main img {
     margin-top: 0;
 }
 
+/* p styling */
 .right-clmn p {
     font-family: "Arial", sans-serif;
     line-height: 1.8;
     margin: 0 0 15px 0;
 }
 
+/* line break styling for more space between p sentences */
 .right-clmn p br {
     display: block; 
     content: ""; 
     margin-bottom: 10px; 
 }
 
+/* img styling */
 .right-clmn img {
     width: 150px;
     height: 160px; 
@@ -110,12 +126,14 @@ main img {
     margin: 10px 10px 10px 0; 
 }
 
+/* styling for img row */
 .image-row {
     display: flex; 
     flex-wrap: wrap; 
     gap: 10px; 
 }
 
+/* footer styling, color, font, padding and position */
 footer {
     background-color: #8c15e9;
     font-family: "Arial", sans-serif;
